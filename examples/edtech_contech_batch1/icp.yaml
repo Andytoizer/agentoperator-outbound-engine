@@ -1,0 +1,47 @@
+name: "EdTech K-12 SaaS"
+
+verticals:
+  - "education technology"
+  - "K-12 SaaS"
+  - "family engagement"
+
+employee_range: [51, 5000]
+
+regions:
+  - "United States"
+
+exclusions:
+  - "higher education"
+  - "LMS consulting"
+
+personas:
+  - name: "sales_leader"
+    titles:
+      - "VP Sales"
+      - "SVP Sales"
+      - "Head of Sales"
+      - "Sr Director Sales"
+    seniority:
+      - "vp"
+      - "director"
+      - "c_suite"
+    department: "sales"
+    per_account_cap: 1
+
+  - name: "sdr_manager"
+    titles:
+      - "SDR Manager"
+      - "BDR Manager"
+      - "Sales Development Manager"
+      - "Inside Sales Manager"
+    seniority:
+      - "manager"
+      - "director"
+    department: "sales"
+    per_account_cap: 1
+
+positioning:
+  peer_customers:
+    - "ClassDojo"
+  peer_workflow: "Sourcing district persona data (~2k comms + ~1.9k curriculum + ~1.8k SEL contacts per workflow) out of Salesforce and back into SFDC"
+  wedge: "Freckle finds district admin personas that don't exist cleanly in Apollo/ZoomInfo — scraping staff pages, board minutes, district strategic plans, and layering in buying signals like competitor platform mentions."

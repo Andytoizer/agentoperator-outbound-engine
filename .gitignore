@@ -1,0 +1,47 @@
+# Environment + secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.eggs/
+.venv/
+venv/
+.pytest_cache/
+
+# Caches
+.email_cache.json
+.research_cache.json
+.*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local config
+.claude/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime outputs that shouldn't be committed (per-campaign data)
+# Uncomment if you want to keep campaign data out of git
+# people/*.json
+# research/*.md
+# drafts/*.md
+# handoffs/*.md
+# SEND_SCHEDULE*.md

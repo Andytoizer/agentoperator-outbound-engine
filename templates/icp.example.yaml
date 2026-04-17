@@ -1,0 +1,68 @@
+# Example ICP — EdTech K-12 SaaS
+# Copy this file to templates/icp.yaml and edit for your campaign.
+# Schema lives at pipeline/icp.py (ICP + PersonaTier dataclasses).
+# Validate with: python -c "from pipeline.icp import load_icp; load_icp('templates/icp.yaml')"
+
+name: "EdTech K-12 SaaS"
+
+# Industry keywords the provider searches on. AI Ark uses SMART mode for fuzzy matching.
+verticals:
+  - "education technology"
+  - "e-learning"
+  - "K-12 SaaS"
+
+# Headcount range of target accounts (min, max).
+employee_range: [51, 5000]
+
+# Geo constraints. Leave empty for global.
+regions:
+  - "United States"
+
+# Sub-verticals or company types to exclude.
+exclusions:
+  - "higher education"
+  - "LMS consulting"
+
+# Persona tiers — who at each account you want to reach.
+personas:
+  - name: "sales_leader"
+    titles:
+      - "VP Sales"
+      - "SVP Sales"
+      - "Head of Sales"
+      - "Chief Revenue Officer"
+    seniority:
+      - "vp"
+      - "c_suite"
+    department: "sales"
+    per_account_cap: 1
+
+  - name: "sdr_manager"
+    titles:
+      - "SDR Manager"
+      - "BDR Manager"
+      - "Sales Development Manager"
+      - "Inside Sales Manager"
+    seniority:
+      - "manager"
+      - "director"
+    department: "sales"
+    per_account_cap: 1
+
+  - name: "marketing_leader"
+    titles:
+      - "VP Marketing"
+      - "Head of Marketing"
+      - "Demand Gen Director"
+    seniority:
+      - "vp"
+      - "director"
+    department: "marketing"
+    per_account_cap: 1
+
+# Free-form positioning metadata the /write skill uses in the connector opener.
+positioning:
+  peer_customers:
+    - "ClassDojo"
+  peer_workflow: "sourcing district personas (~2k comms + ~1.9k curriculum + ~1.8k SEL contacts per workflow) out of Salesforce and back into SFDC"
+  wedge: "We find the district admin personas that don't exist cleanly in Apollo/ZoomInfo by scraping staff pages, board minutes, and district strategic plans."

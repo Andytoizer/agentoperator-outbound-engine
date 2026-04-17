@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Seesaw",
+    "domain": "seesaw.me",
+    "industries": ["education technology", "K-12 SaaS"],
+    "employee_count": 250,
+    "hq_city": "San Francisco",
+    "hq_country": "US",
+    "score": 18,
+    "matched_signals": ["direct competitor to peer customer ClassDojo"],
+    "source": "aiark"
+  },
+  {
+    "name": "ParentSquare",
+    "domain": "parentsquare.com",
+    "industries": ["education technology", "family engagement"],
+    "employee_count": 180,
+    "hq_city": "Santa Barbara",
+    "hq_country": "US",
+    "score": 15,
+    "matched_signals": ["Mar 2026 Contactability Benchmark release"],
+    "source": "aiark"
+  },
+  {
+    "name": "Newsela",
+    "domain": "newsela.com",
+    "industries": ["education technology", "K-12 content"],
+    "employee_count": 400,
+    "hq_city": "New York",
+    "hq_country": "US",
+    "score": 17,
+    "matched_signals": ["hiring 3 Strategic AEs", "Schoolytics + EveryDay Labs rollup"],
+    "source": "aiark"
+  },
+  {
+    "name": "Raptor Technologies",
+    "domain": "raptortech.com",
+    "industries": ["education technology", "school safety"],
+    "employee_count": 350,
+    "hq_city": "Houston",
+    "hq_country": "US",
+    "score": 14,
+    "matched_signals": ["Alyssa's Law Utah statewide approval"],
+    "source": "aiark"
+  },
+  {
+    "name": "Panorama Education",
+    "domain": "panoramaed.com",
+    "industries": ["education technology", "K-12 SaaS"],
+    "employee_count": 300,
+    "hq_city": "Boston",
+    "hq_country": "US",
+    "score": 13,
+    "matched_signals": [],
+    "source": "aiark"
+  },
+  {
+    "name": "Housecall Pro",
+    "domain": "housecallpro.com",
+    "industries": ["construction SaaS", "home services"],
+    "employee_count": 900,
+    "hq_city": "San Diego",
+    "hq_country": "US",
+    "score": 15,
+    "matched_signals": ["Yelp integration launched"],
+    "source": "aiark"
+  },
+  {
+    "name": "BuildOps",
+    "domain": "buildops.com",
+    "industries": ["construction SaaS", "commercial trades"],
+    "employee_count": 650,
+    "hq_city": "Los Angeles",
+    "hq_country": "US",
+    "score": 17,
+    "matched_signals": ["Series C unicorn round"],
+    "source": "aiark"
+  },
+  {
+    "name": "CompanyCam",
+    "domain": "companycam.com",
+    "industries": ["construction SaaS", "home services"],
+    "employee_count": 220,
+    "hq_city": "Lincoln",
+    "hq_country": "US",
+    "score": 15,
+    "matched_signals": ["first Nebraska unicorn"],
+    "source": "aiark"
+  },
+  {
+    "name": "Jobber",
+    "domain": "getjobber.com",
+    "industries": ["construction SaaS", "home services"],
+    "employee_count": 800,
+    "hq_city": "Edmonton",
+    "hq_country": "CA",
+    "score": 16,
+    "matched_signals": ["hiring for inbound sales growth"],
+    "source": "aiark"
+  },
+  {
+    "name": "Fieldwire",
+    "domain": "fieldwire.com",
+    "industries": ["construction SaaS", "commercial construction"],
+    "employee_count": 280,
+    "hq_city": "San Francisco",
+    "hq_country": "US",
+    "score": 14,
+    "matched_signals": [],
+    "source": "aiark"
+  }
+]
