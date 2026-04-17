@@ -4,7 +4,7 @@ Built by [Andy Toizer](https://www.linkedin.com/in/andy-toizer/) — Head of Gro
 
 **TLDR:** A 7-skill outbound engine you drive with Claude Code. Define an ICP, build a ranked target list, find the right buyers at each account, enrich emails via waterfall, research every company, draft email + LinkedIn in your voice, then schedule sends with varied timing and Slack DM reminders carrying the LinkedIn URL and the exact copy you need.
 
-Built and tested on a live 15-contact batch at Freckle — 10 companies across EdTech and ConstructionTech, using ClassDojo and BuildPass as peer-customer connector hooks. Drafts were iterated 15+ rounds per email to lock the voice, then the scheduler fanned out Gmail drafts and 30 Slack DMs (15 email reminders + 15 LinkedIn followups at T+24h weekday delay).
+Built and tested on a live 15-contact batch at Freckle — 10 companies across EdTech and ConstructionTech, using peer-customer connector hooks. Drafts were iterated 15+ rounds per email to lock the voice, then the scheduler fanned out Gmail drafts and 30 Slack DMs (15 email reminders + 15 LinkedIn followups at T+24h weekday delay).
 
 ## How It Works
 
