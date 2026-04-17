@@ -1,6 +1,6 @@
 # AgentOperator Outbound Workflow
 
-Built by [Andy Toizer](https://www.linkedin.com/in/andytoizer/) — Head of Growth at Freckle and author of the [AgentOperator newsletter](https://agentoperator.substack.com/), where I write about building real things with Claude Code agents instead of talking about the future tense of "AI at work."
+Built by [Andy Toizer](https://www.linkedin.com/in/andytoizer/) — Head of Growth at [Freckle](https://freckle.io) and author of the [AgentOperator newsletter](https://agentoperator.substack.com/), where I write about building real things with Claude Code agents instead of talking about the future tense of "AI at work."
 
 **TLDR:** A 7-skill outbound engine you drive with Claude Code. Define an ICP, build a ranked target list, find the right buyers at each account, enrich emails via waterfall, research every company, draft email + LinkedIn in your voice, then schedule sends with varied timing and Slack DM reminders carrying the LinkedIn URL and the exact copy you need.
 
