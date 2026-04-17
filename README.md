@@ -83,7 +83,7 @@ Open the Claude Code desktop app, paste this into the chat, and let Claude do th
 Install this repo: https://github.com/Andytoizer/agentoperator-outbound-workflow
 
 Clone it into ~/Documents, run pip install -r requirements.txt, copy .env.example to .env,
-then walk me through filling in the API keys.
+then walk me through getting started.
 ```
 
 Claude will clone, install, scaffold your `.env`, and read `CLAUDE.md` to get oriented. When it's done, type `/plan-campaign` to start your first campaign.
