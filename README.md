@@ -1,4 +1,4 @@
-# AgentOperator Outbound Workflow
+# AgentOperator Outbound Engine
 
 Built by [Andy Toizer](https://www.linkedin.com/in/andy-toizer/) — Head of Growth at [Freckle](https://freckle.io) and author of the [AgentOperator newsletter](https://agentoperator.substack.com/), where I write about building real things with Claude Code agents instead of talking about the future tense of "AI at work."
 
