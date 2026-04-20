@@ -80,7 +80,7 @@ Every step writes a handoff file, so a long campaign can split across sessions w
 Open the Claude Code desktop app, paste this into the chat, and let Claude do the setup:
 
 ```
-Install this repo: https://github.com/Andytoizer/agentoperator-outbound-workflow
+Install this repo: https://github.com/Andytoizer/agentoperator-outbound-engine
 
 Clone it into ~/Documents, run pip install -r requirements.txt, copy .env.example to .env,
 then walk me through getting started.
@@ -91,8 +91,8 @@ Claude will clone, install, scaffold your `.env`, and read `CLAUDE.md` to get or
 ### Manual install
 
 ```bash
-git clone https://github.com/Andytoizer/agentoperator-outbound-workflow.git
-cd agentoperator-outbound-workflow
+git clone https://github.com/Andytoizer/agentoperator-outbound-engine.git
+cd agentoperator-outbound-engine
 pip install -r requirements.txt
 cp .env.example .env
 # Fill in your API keys

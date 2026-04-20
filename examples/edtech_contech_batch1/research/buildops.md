@@ -18,7 +18,7 @@ Outbound-heavy to regional commercial contractors. Post-Series C headcount expan
 
 BuildPass (B2B ConTech platform) is a Freckle customer. Freckle pulls contractor lists from Google Maps at geo + classification level ("commercial builder tampa", "general contractors louisiana"), classifies each as residential/commercial/sub, and enriches with owner + PM + superintendent + safety lead contacts.
 
-One recent workflow: 875 companies → 566 decision makers + 505 LinkedIn profiles + 505 emails + 404 phone numbers, all synced to HubSpot.
+One recent engine: 875 companies → 566 decision makers + 505 LinkedIn profiles + 505 emails + 404 phone numbers, all synced to HubSpot.
 
 Opener move: Same contractor ICP, same data-gap. Offer the engine.
 

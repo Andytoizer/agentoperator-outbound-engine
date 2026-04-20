@@ -29,7 +29,7 @@
 ## Examples
 
 **Customer check-in:**
-> Hey Bartek- hope your Tuesday's been treating you well. Wanted to check back in as we rescheduled our last call and then never got another on the cal. Is there still interest in building out some workflows?
+> Hey Bartek- hope your Tuesday's been treating you well. Wanted to check back in as we rescheduled our last call and then never got another on the cal. Is there still interest in building out some engines?
 
 **New user welcome:**
 > Hey Justin- I'm Andy, the head of growth at Freckle. Saw you signed up and were exploring the platform a week ago and realized I never reached out to say hello!

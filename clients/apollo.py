@@ -8,7 +8,7 @@
 """
 Apollo client stub.
 
-The original workflow drives Apollo through Claude Code's MCP tool
+The original engine drives Apollo through Claude Code's MCP tool
 (apollo_mixed_people_search, apollo_mixed_companies_search), so the Python
 side just parses results out of JSON dumps Claude produces.
 

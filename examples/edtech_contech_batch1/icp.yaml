@@ -43,5 +43,5 @@ personas:
 positioning:
   peer_customers:
     - "ClassDojo"
-  peer_workflow: "Sourcing district persona data (~2k comms + ~1.9k curriculum + ~1.8k SEL contacts per workflow) out of Salesforce and back into SFDC"
+  peer_engine: "Sourcing district persona data (~2k comms + ~1.9k curriculum + ~1.8k SEL contacts per engine) out of Salesforce and back into SFDC"
   wedge: "Freckle finds district admin personas that don't exist cleanly in Apollo/ZoomInfo — scraping staff pages, board minutes, district strategic plans, and layering in buying signals like competitor platform mentions."

@@ -1,5 +1,5 @@
 [project]
-name = "agentoperator-outbound-workflow"
+name = "agentoperator-outbound-engine"
 version = "0.1.0"
 description = "A 7-skill outbound engine for Claude Code — ICP, targets, people, enrichment, research, writing, and deliverability-aware scheduling."
 readme = "README.md"
