@@ -9,12 +9,12 @@ from 15+ iterations per draft on a real batch.
 
 Every cold email opens with a peer-customer connector:
 
-> "We work with [peer customer] on their [specific engine], and since
+> "We work with [peer customer] on their [specific workflow], and since
 > [recipient's company] [does the same thing / competes / is adjacent], I'd
 > imagine the pattern translates pretty directly."
 
 - **Personalization goes IN the connector**, not after it. Tacked-on personalization ("also I noticed you...") reads like a template with a bolt-on.
-- **Customer engine + real stats.** Verified numbers only. No invented math.
+- **Customer workflow + real stats.** Verified numbers only. No invented math.
 - **Loom or POC offer on its own line.** Never jammed into a paragraph.
 - **CTA = open question.** Never a meeting ask in the first email.
 
@@ -22,8 +22,8 @@ Every cold email opens with a peer-customer connector:
 
 1. **Greeting.** `Hey [FirstName]-`
 2. **Connector.** One sentence, peer customer + your wedge + why it applies to them.
-3. **Engine + stats.** 1-2 sentences with real numbers from the peer customer's usage.
-4. **Offer.** Own line: "Happy to share a Loom walking through that engine if you're interested." or "Happy to run a free POC for your team..."
+3. **Workflow + stats.** 1-2 sentences with real numbers from the peer customer's usage.
+4. **Offer.** Own line: "Happy to share a Loom walking through that workflow if you're interested." or "Happy to run a free POC for your team..."
 5. **Research hook.** 1-2 sentences referencing a DATED (<12 months) signal you found during research.
 6. **CTA.** Open question: "How's your team handling X today?"
 7. **Signoff.** Just your first name.
@@ -43,7 +43,7 @@ Every cold email opens with a peer-customer connector:
 
 ## LinkedIn 1/2 + 2/2 structure
 
-- **1/2** = connect request note. Specific hook + customer-engine teaser. Target ~200 chars (LinkedIn free-tier limit).
+- **1/2** = connect request note. Specific hook + customer-workflow teaser. Target ~200 chars (LinkedIn free-tier limit).
 - **2/2** = sent IMMEDIATELY after connect accept. Offers the same Loom / POC as the email. One sentence.
 
 Exception: if the 1/2 already has the CTA baked in ("curious how your team is doing X"), skip 2/2.
@@ -72,9 +72,9 @@ Never hide the relationship. Honest disclosure performs better than pretending y
 
 When running an offer A/B test on the SDR/BDR batch:
 - **POC arm** — "send us a sample list, we'll enrich it back for you". Collaborative, lower-barrier.
-- **Loom arm** — "happy to share a walkthrough of the engine". Info-only.
+- **Loom arm** — "happy to share a walkthrough of the workflow". Info-only.
 
-Keep the opener + engine content IDENTICAL across arms. Only the CTA offer differs, so response-rate delta is attributable to the offer alone.
+Keep the opener + workflow content IDENTICAL across arms. Only the CTA offer differs, so response-rate delta is attributable to the offer alone.
 
 ## What doesn't work (banned from iteration)
 

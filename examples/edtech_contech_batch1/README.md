@@ -23,7 +23,7 @@ Sanitized walkthrough of the first real batch this tool was built on. Names, ema
 1. **The ICP shape** — verticals, employee range, persona tiers, positioning
 2. **The send-sheet format** — exact markdown structure the scheduler parses
 3. **The connector-opener pattern** — peer customer + why-it-applies woven into the first sentence
-4. **The A/B split structure** — POC vs Loom arm, same opener/engine, different CTA
+4. **The A/B split structure** — POC vs Loom arm, same opener/workflow, different CTA
 5. **The pre-send checklist** — what the /write skill flags before /schedule-sends runs
 6. **The handoff cadence** — what each phase writes so the next phase can resume cleanly
 

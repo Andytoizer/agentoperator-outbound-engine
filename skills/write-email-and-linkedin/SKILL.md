@@ -85,7 +85,7 @@ These survived the Batch 1 iteration and should NOT be re-litigated per campaign
 
 - **Connector opener** on every email. Peer-customer mention woven into the first sentence, not tacked on.
 - **Personalization in the opener**, not after.
-- **Customer engine + real stats** (verified numbers, not invented).
+- **Customer workflow + real stats** (verified numbers, not invented).
 - **Loom or POC offer on its own line.**
 - **CTA = open question**, never a meeting ask.
 - **Signoff: just "Andy"** (or your name) — no title, no link in the first email.

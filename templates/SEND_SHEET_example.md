@@ -29,9 +29,9 @@ Hey First-
 
 Connector opener with peer-customer reference + why it applies here.
 
-Engine + real stats paragraph.
+Workflow + real stats paragraph.
 
-Happy to share a Loom walking through that engine if you're interested.
+Happy to share a Loom walking through that workflow if you're interested.
 
 Research hook referencing a dated <12mo signal.
 
