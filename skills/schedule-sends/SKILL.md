@@ -62,9 +62,10 @@ description: Parse a send sheet, create Gmail drafts, and schedule Slack DM remi
    li_dms = build_slack_linkedin_reminders(plan, entries, channel_id="U09XXXXXXXX")
    ```
 
-5. **Materialize via MCP tools** — hand the specs to Claude Code:
-   - For each `DraftSpec`: call `create_draft` (Gmail MCP) with `spec.to_mcp_args()`.
+5. **Materialize via MCP tools — CRITICAL INVARIANT: every Slack reminder must have a matching Gmail draft.** Hand the specs to Claude Code:
+   - For each `DraftSpec`: call `create_draft` (Gmail MCP) with `spec.to_mcp_args()`. The dict contains both `body` (plain-text) and `htmlBody` (`<p>`-wrapped), so Gmail renders naturally without the plain-text column-wrap that makes emails look automated.
    - For each `DMSpec`: call `slack_schedule_message` with `spec.to_mcp_args()`.
+   - **Fire drafts FIRST, then DMs.** If draft creation fails and the Slack reminder fires, the user sees "send this email" with no draft to send — the exact bug that made us add this invariant. Never schedule a DM without confirming its draft exists.
    - Batch in parallel (5-10 tool calls per message) for speed. Expect occasional rate-limit errors — retry individually.
 
 6. **Write the schedule reference file** — `SEND_SCHEDULE.md` at repo root:
@@ -123,3 +124,5 @@ LI 2/2 (after accept):
 - **Rate limits** — Slack `slack_schedule_message` rate-limits ~4-5/15 when fired in parallel. Retry individually.
 - **Weekend timestamp** — LI delay can land on Saturday if you forget to check weekends in `_next_workday_same_time`. The built-in helper handles this but audit timestamps.
 - **Skipping the test gate** — ALWAYS test with a 2-3 contact send before firing the full 15. Once Slack DMs are scheduled, editing them requires the Slack UI.
+- **Reminder without draft (DON'T SHIP)** — if draft creation silently fails but the DM schedule succeeds, the user gets a "send this now" ping with nothing to send. Enforce: Gmail draft creation succeeds FIRST, only then schedule the matching Slack DM. `pipeline.scheduler.build_gmail_drafts()` returns specs; the caller must confirm each draft materialized before calling `build_slack_email_reminders()`.
+- **Plain-text column wrap** — Gmail auto-wraps plain-text `body` at ~76 chars, which makes emails look pre-formatted. The `clients.gmail.create_draft()` helper auto-generates an `htmlBody` from the plain body (one `<p>` per paragraph) so the reader's client reflows naturally. Don't pass `html_body=""` unless you explicitly want plain text.
